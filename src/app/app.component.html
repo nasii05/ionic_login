@@ -1,3 +1,33 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<div class="logo-container">
+  <div class="logo-holder">
+    <img src="../assets/images/ziply-logo.png" alt="" />
+
+    <h1>Field services app</h1>
+    <p>please log in</p>
+  </div>
+
+  <div class="form-container">
+    <div class="form-holder">
+      <form>
+        <div class="ziply-id">
+          <label for="">Ziply ID</label>
+          <input type="text"/>
+        </div>
+
+        <div class="password">
+          <label for="">password</label>
+          <input type="password"/>
+        </div>
+      </form>
+
+      <div class="keep-sign">
+        <ion-toggle color="primary" class="toggle" [checked]="true"></ion-toggle>
+        <p>keep me signed in</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button class="">sign in</button>
+  </div>
+</div>
